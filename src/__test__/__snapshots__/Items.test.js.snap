@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Items Default Unit Testing 1`] = `
+<span>
+  No items in list
+</span>
+`;
+
+exports[`Items renders correctly when there are multiple items 1`] = `
+<div>
+  <ul>
+    <li>
+      one
+    </li>
+    <li>
+      two
+    </li>
+    <li>
+      three
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Items renders correctly when there are no items 1`] = `
+<span>
+  No items in list
+</span>
+`;
+
+exports[`Items renders correctly when there is one item 1`] = `
+<span>
+  one
+</span>
+`;
